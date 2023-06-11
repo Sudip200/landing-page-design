@@ -43,7 +43,7 @@ header ul li a{
     color: #333;
     font-weight: 400;
 }
-img {
+#logo-in {
     width:70px;
     height:auto;
     border-radius: 50%;
@@ -104,3 +104,44 @@ font-weight: 500;
     transform: translateX(-50%);
     display: flex;
 } */
+.circle{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    right:0;
+    background-color: orange;
+    clip-path: circle(600px at right 700px);
+}
+@media (max-width:700px){
+    header{
+        padding: 20px 20px 100px;
+    }
+    header .logo{
+        max-width: 60px;
+    }
+    header ul{
+        display :none;
+    }
+    .content{
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    section{
+        padding:20px;
+    }
+    .content .textBox h2{
+        font-size:2.5em
+    }
+    .content .textBox {
+        max-width: 100%;
+    }
+    .circle{
+      clip-path: circle(360px at center bottom);
+    }
+    .content .imgBox{
+        max-width:100%;
+        justify-content: center;
+    }
+
+}
