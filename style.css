@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: absolute;
+    left: 0;
+    top:0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+section{
+    position:relative;
+    padding:100px;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    display:inline-block;
+    margin-left: 40px;
+    color: #333;
+    font-weight: 400;
+}
+img {
+    width:70px;
+    height:auto;
+    border-radius: 50%;
+}
+.content{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+color:#133;
+font-size: 4em;
+line-height: 1.4em;
+font-weight: 500;
+}
+.content .textBox h2 span{
+    color:darkorange;
+    font-weight: 900;
+    font-size:1.2em;
+}
+.content .textBox p{
+    color:#333
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    background-color:darkorange;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+.content .imgBox{
+    
+}
